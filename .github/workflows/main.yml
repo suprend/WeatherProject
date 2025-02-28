@@ -26,4 +26,4 @@ jobs:
           context: .
           file: ./Dockerfile
           push: true
-          tags: suprend/my_weather_app:latest
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/my_weather_app:latest
